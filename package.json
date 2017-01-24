@@ -1,8 +1,8 @@
 {
   "name": "xlsx_buffer",
-  "version": "0.7.6-g",
+  "version": "1.0.0",
   "author": {
-    "name": "sheetjs"
+    "name": "mohg"
   },
   "description": "Excel 2007+ spreadsheet (XLSB/XLSX/XLSM) parser and writer",
   "keywords": [
@@ -32,44 +32,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/SheetJS/js-xlsx.git"
-  },
-  "scripts": {
-    "pretest": "git submodule init && git submodule update",
-    "test": "make test",
-    "test-jasmine": "jasmine-node --verbose tests/"
+    "url": "https://github.com/motomohg/xlsx_buffer.git"
   },
   "config": {
     "blanket": {
       "pattern": "xlsx.js"
     }
   },
-  "bugs": {
-    "url": "https://github.com/SheetJS/js-xlsx/issues"
-  },
   "license": "Apache-2.0",
   "engines": {
     "node": ">=0.8"
-  },
-  "homepage": "https://github.com/SheetJS/js-xlsx",
-  "_id": "xlsx@0.7.6-g",
-  "_shasum": "39ff2f225a82da65b96eec9add49f1da1310fc85",
-  "_from": "xlsx@0.7.6-g",
-  "_npmVersion": "1.4.9",
-  "_npmUser": {
-    "name": "sheetjs",
-    "email": "dev@sheetjs.com"
-  },
-  "maintainers": [
-    {
-      "name": "sheetjs",
-      "email": "dev@sheetjs.com"
-    }
-  ],
-  "dist": {
-    "shasum": "39ff2f225a82da65b96eec9add49f1da1310fc85",
-    "tarball": "https://registry.npmjs.org/xlsx/-/xlsx-0.7.6-g.tgz"
-  },
-  "directories": {},
-  "_resolved": "https://registry.npmjs.org/xlsx/-/xlsx-0.7.6-g.tgz"
+  }
 }
