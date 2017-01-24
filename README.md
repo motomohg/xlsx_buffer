@@ -1,1 +1,1 @@
-# xlsx_buffer
+This is a copy of xlsx module. I made few changes in this module to accept buffer
